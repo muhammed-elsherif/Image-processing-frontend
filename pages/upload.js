@@ -47,7 +47,7 @@ const Upload = () => {
   return (
     <>
       <div className={styles.container}>
-        <h1>Resize Image from URL</h1>
+        <h1>Resize Image</h1>
         <form onSubmit={handleSubmit} className={styles.form}>
           <label className={styles.label}>
             Choose file:
